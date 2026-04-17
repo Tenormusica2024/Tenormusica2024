@@ -1,26 +1,26 @@
 ## Hi there
 
-AI エージェント運用とナレッジオペレーションを中心に、実務で動く自動化システムを作っています。
-ツール・ワークフロー・リポジトリを束ねて「壊れない自動化」を組み立てるのが専門。
+I build automation systems that run in real-world operations, centered on AI agent orchestration and knowledge operations.
+My specialty is tying tools, workflows, and repositories together into automation that doesn't break.
 
 ---
 
 ### Featured: curiosity-wiki Operations Flow
 
-個人用 LLM Wiki の運用パイプライン全体像。
-Task Scheduler が起動するオーケストレーターから、intake / governance / graphify の各フローを経て operations cockpit に集約されるまでのデータフローを可視化。
+End-to-end view of the operations pipeline for a personal LLM Wiki.
+Visualizes the data flow from a Task Scheduler-triggered orchestrator, through the intake / governance / graphify flows, down to the operations cockpit.
 
 [![curiosity-wiki Operations Flow](./assets/curiosity-wiki-fullmap.png)](https://curiosity-wiki-ops.vercel.app)
 
 **Live demo:** https://curiosity-wiki-ops.vercel.app
 
-- 8 エージェント構成の感度最適化パイプライン (Phase 5)
-- Canonical レイヤーによる概念正規化 + エイリアス解決 (Phase 6)
-- 1 日 4 回の自動 intake + 週次 governance + daily meta 監督
-- Grok 4 / Perplexity / xAI API のマルチソース検索チェーン
-- GLM-5 × Claude Code × Codex のマルチモデル・オーケストレーション
+- 8-agent sensitivity-optimized pipeline (Phase 5)
+- Concept normalization + alias resolution via a canonical layer (Phase 6)
+- Automated intake 4x/day + weekly governance + daily meta supervision
+- Multi-source search chain across Grok 4 / Perplexity / xAI API
+- Multi-model orchestration with GLM-5 × Claude Code × Codex
 
-本体リポジトリは非公開。可視化 HTML 1 枚を独立デプロイリポジトリ経由で Vercel 公開しています。
+The main repository is private. Only the visualization HTML is carved out into a standalone deploy repository and published via Vercel.
 
 ---
 
@@ -36,7 +36,7 @@ Task Scheduler が起動するオーケストレーターから、intake / gover
 
 ### Focus
 
-- AI エージェントが読み書きしやすいナレッジ構造の設計
-- モデル役割分担によるコスト最適化（安いモデルに安い仕事、高いモデルに高価値タスク）
-- 手動ルーティング・反復判断を安全な自動化で削減
-- 動き始めたシステムにガード・監視・自動化を重ねて運用信頼性を高める
+- Designing knowledge structures that AI agents can read and write easily
+- Cost optimization through model role separation (cheap models for cheap work, premium models for high-value tasks)
+- Reducing manual routing and repetitive judgment through safe automation
+- Adding guards, monitoring, and automation on top of working systems to raise operational reliability
