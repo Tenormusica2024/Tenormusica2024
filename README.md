@@ -1,7 +1,8 @@
 ## Hi there
 
-I build automation systems that run in real-world operations, centered on AI agent orchestration and knowledge operations.
-My specialty is tying tools, workflows, and repositories together into automation that doesn't break.
+I’m an AI Engineer focused on agent operations, knowledge operations, and automation reliability.
+
+I build automation systems and LLM/agent workflows that are not only functional, but also operable, monitorable, and maintainable in real-world environments. My specialty is tying tools, workflows, and repositories together into automation that doesn’t break.
 
 ---
 
@@ -24,6 +25,28 @@ The main repository is private. Only the visualization HTML is carved out into a
 
 ---
 
+### Representative Projects
+
+- **curiosity-wiki** — track-aware research and knowledge operations system for AI-agent-friendly workflows  
+  Demo: https://curiosity-wiki-ops.vercel.app
+- **openclaw-claude-bridge** — bridge-oriented orchestration for multi-agent execution and operational routing  
+  Repo: https://github.com/Tenormusica2024/openclaw-claude-bridge
+- **vault-d** — metadata normalization and knowledge structure design for durable AI workflows  
+  Repo: https://github.com/Tenormusica2024/vault-d
+
+### Selected Artifacts
+
+- **curiosity-wiki Operations Flow (live demo)**  
+  https://curiosity-wiki-ops.vercel.app
+- **openclaw-claude-bridge**  
+  https://github.com/Tenormusica2024/openclaw-claude-bridge
+- **vault-d**  
+  https://github.com/Tenormusica2024/vault-d
+- **Portfolio** — personal portfolio site showcasing selected projects, AI workflow work, and implementation context  
+  https://github.com/Tenormusica2024/portfolio
+
+---
+
 ### Stack
 
 - **Languages:** Python, TypeScript, PowerShell, Bash
@@ -36,7 +59,8 @@ The main repository is private. Only the visualization HTML is carved out into a
 
 ### Focus
 
-- Designing knowledge structures that AI agents can read and write easily
-- Cost optimization through model role separation (cheap models for cheap work, premium models for high-value tasks)
-- Reducing manual routing and repetitive judgment through safe automation
-- Adding guards, monitoring, and automation on top of working systems to raise operational reliability
+- Agent operations and AI workflow reliability
+- Knowledge operations and agent-friendly structure design
+- Cost-aware model routing and role separation
+- Safe automation that reduces manual routing and repetitive judgment
+- Guardrails, monitoring, and handover for real-world operation
