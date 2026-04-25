@@ -8,8 +8,7 @@ I build automation systems and LLM/agent workflows that are not only functional,
 
 ### Start here: public repos that show how I work
 
-Most of my larger operating systems are private or partially private.  
-If you want the fastest public entry points, start with these:
+Here are some public repos I’d recommend as entry points:
 
 - **Review / fix workflows**
   - [review-fix-pipeline](https://github.com/Tenormusica2024/review-fix-pipeline) — intent-first review and automated fix loops with independent reviewer contexts
@@ -21,7 +20,7 @@ If you want the fastest public entry points, start with these:
 - **Data pipeline / dashboard artifact**
   - [huggingface-daily-insights-api](https://github.com/Tenormusica2024/huggingface-daily-insights-api) — daily snapshots, dashboard, CSV releases, and API for open AI ecosystem tracking
 
-If you only open **one** repo first, start with [review-fix-pipeline](https://github.com/Tenormusica2024/review-fix-pipeline) for agent workflow design or [x-bookmark-knowledge-pack](https://github.com/Tenormusica2024/x-bookmark-knowledge-pack) for knowledge-pack style local-first tooling.
+If you want a place to start, I’d especially recommend [review-fix-pipeline](https://github.com/Tenormusica2024/review-fix-pipeline) for agent workflow design or [x-bookmark-knowledge-pack](https://github.com/Tenormusica2024/x-bookmark-knowledge-pack) for local-first knowledge-pack style tooling.
 
 ---
 
